@@ -6,7 +6,6 @@ class Repository : IRepository {
         return Movie()
     }
 
-    override fun getMovieFromLocalStorage(): Movie {
-        return Movie()
-    }
+    override fun getMovieFromLocalStorage(): List<Movie> = getMovieList()
+    override fun getMultFromLocalStorage(): List<Movie> = getMultList()
 }

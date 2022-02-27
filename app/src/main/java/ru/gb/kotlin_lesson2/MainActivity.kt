@@ -3,7 +3,7 @@ package ru.gb.kotlin_lesson2
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import ru.gb.kotlin_lesson2.databinding.ActivityMainBinding
-import ru.gb.kotlin_lesson2.ui.main.MainFragment
+import ru.gb.kotlin_lesson2.view.MainFragment
 
 class MainActivity : AppCompatActivity() {
 
